@@ -45,4 +45,6 @@
 
   - [argocd-application.yaml](https://github.com/hosain-ghoraba/devops-ansible-playbooks/blob/main/part-4/todo-list-k8s-manifests/argocd-application.yaml) : Manages the automated deployment and synchronization of the app using ArgoCD
 
-- Note: full CI/CD workflow works for part 4 if the image is made public, but I was not able to make automatic CD work when the image is private, because I couldn't authenticate image updater with the private image on ghcr, I tried very hard to make it work but for some reason it didn't, so I made the image public, and the workflow worked well.
+~~Note: full CI/CD workflow works for part 4 if the image is made public, but I was not able to make automatic CD work when the image is private, because I couldn't authenticate image updater with the private image on ghcr, I tried very hard to make it work but for some reason it didn't, so I made the image public, and the workflow worked well.~~
+
+The above is fixed by adding my username as a contributor to the private package ! I thought I am the owner of the package so no need for me to do this, but I had to !)
