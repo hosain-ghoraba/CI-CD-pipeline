@@ -27,7 +27,7 @@
 
 - Health checks : Done in Docker Compose by periodically checking its HTTP endpoint
 
-- Choosed [Watchtower](https://containrrr.dev/watchtower/) as auto update tool, for its simblicity and ease of integration with docker compose.
+- Choosed [Watchtower](https://containrrr.dev/watchtower/) as auto update tool, for its simplicity and ease of integration with docker compose.
 
 - Full CI/CD workflow works well with private images (authentication of docker compose with ghcr works well)
 
