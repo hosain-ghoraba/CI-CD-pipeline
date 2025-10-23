@@ -2,7 +2,7 @@
 
 ## This repo builds the CI/CD pipeline for a Node.js app, as required in the below pdf.
 
-![PDF Preview](./CI_CD%20pipeline%20for%20EC2.pdf)
+![image](./Requirements.png)
 
 ## Technologies :
 
